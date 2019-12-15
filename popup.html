@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pop UP</title>
+    <style>
+        blockquote {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5rem;
+            max-width: 500px;
+            margin: 2rem auto 0 auto;
+            padding-top: 3rem;
+        }
+
+        blockquote::first-letter {
+            font-size: 3rem;
+        }
+
+        .btn {
+            width: 5rem;
+            height: 2rem;
+            background-color: black;
+            color: white;
+            margin: 2rem auto;
+            display: block;
+            cursor: pointer;
+        }
+
+        .popUp {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 30%;
+            width: 35%;
+            height: 50px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            display: none;
+        }
+
+        .popUpX {
+            position: absolute;
+            right: 1rem;
+            cursor: pointer;
+        }
+
+        .popUpContent {
+            position: relative;
+            top: 15px;
+        }
+
+        .popUpBlock {
+            display: block;
+        }
+
+        .shade {
+            background-color: rgb(0, 0, 0, 0.8);
+        }
+    </style>
+    <script defer src="./popup.js"></script>
+</head>
+
+<body>
+    <div class="popUp">
+        <div class="popUpX">x</div>
+        <div class="popUpContent">Inception</div>
+    </div>
+    <blockquote>cobb steps forwards to the immigration official. hands him his passport. nervous. the official takes a
+        beat, looks cobb up and down, then whump!- the passport is stamped. as cobb takes it back, he spots ariadne at
+        the next counter. she nods at him. he nods back. then moves off... as cobb passes through baggage claim, he
+        exchanges subtle greetings with eames and yusuf. arthur smiles broadly at cobb. cobb brushes past fischer, who
+        glances back at him as if thinking maybe he should know him, then moves on...145. as cobb emerges into the
+        crowded arrivals hall, he spots professor miles, waving at him... int. kitchen, cobb and mal's house - day cobb
+        enters with miles. drops his bags. moves to the table, looking out at the overgrown garden. he reaches into his
+        pocket, takes out his pewter spinning top, lowers it to the table and spins it- a child's shout makes him look
+        upthrough the window, james and philippa have run into view, playing, their faces turned away... cobb stares at
+        the back of his children's heads... miles moves to the window and knocks on the glassjames and philippa turn-
+        see their dad. he steps to the window, watching their bright faces shining as they run towards him... behind
+        him, on the table, the spinning top is still spinning.</blockquote>
+
+    <button class="btn">click</button>
+
+</body>
+
+</html>
